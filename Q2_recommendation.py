@@ -102,7 +102,7 @@ def matrixFactorization(R, k, iterations, alpha):
     print(I)
     print("P x Q:")
     print(getPredictedRatings(P, Q, U, I))
-    print(np.round_(getPredictedRatings(P, Q, U, I)))
+    # print(np.round_(getPredictedRatings(P, Q, U, I)))
     plotGraph(stats)
 
 
